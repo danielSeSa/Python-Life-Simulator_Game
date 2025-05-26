@@ -1,4 +1,4 @@
-#Python Game (Life Simulator)
+# Python Game (Life Simulator)
 
 A simple life simulation game developed using Pygame in Python. In this game, you manage a character from birth to death, making important decisions about education, career, relationships, and daily activities.
 
@@ -55,8 +55,6 @@ A simple life simulation game developed using Pygame in Python. In this game, yo
 Hope you enjoy this life simulator (even in its current, incomplete state)!
 
 ---
-
-## (متن فارسی پایین‌تر شروع می‌شود)
 
 # Python Game (Life Simulator)
 

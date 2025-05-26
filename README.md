@@ -46,32 +46,6 @@ A simple life simulation game developed using Pygame in Python. In this game, yo
     ```bash
     python PythonLifeGameSimulator.py
     ```
-
-## Future Plans (Ideas for Development)
-
-- **Advanced Graphics and Visual Effects:**
-  - Customizable character avatars.
-  - Icons and images for items and activities.
-- **Deeper Gameplay:**
-  - More extensive education system with grades and more realistic impacts.
-  - More complex career paths with multiple promotion levels and specific requirements.
-  - Deeper relationships with friends, family, and spouse (with more interactions and related events).
-  - Much more varied random events with multiple decision-making options.
-  - More detailed health system with specific illnesses and treatments.
-  - More advanced financial system (investing, loans, stock market).
-- **Engaging Gameplay Mechanics:**
-  - Mini-games for some activities or jobs.
-  - Achievements system.
-- **Sound and Music:**
-  - Background music and sound effects.
-- **Improved User Interface (UI) and User Experience (UX).**
-- **Ability to save and load the game.**
-- **More character customization at the beginning of the game.**
-
-## Contribution
-
-As this project is still in its early stages, any suggestions, feedback, or contributions to development are highly welcome. If you have an idea or want to help improve the game, please open an Issue or submit a Pull Request.
-
 ## Requirements
 
 - Python 3.x
@@ -132,37 +106,6 @@ Hope you enjoy this life simulator (even in its current, incomplete state)!
     ```bash
     python PythonLifeGameSimulator.py
     ```
-
-## برنامه‌های آینده (ایده‌ها برای توسعه)
-
-- **گرافیک و جلوه‌های بصری پیشرفته‌تر:**
-  - آواتارهای شخصیت قابل تنظیم.
-  - آیکون‌ها و تصاویر برای آیتم‌ها و فعالیت‌ها.
-- **عمق بیشتر در گیم‌پلی:**
-  - سیستم تحصیلی گسترده‌تر با نمرات و تأثیرات واقعی‌تر.
-  - مسیرهای شغلی پیچیده‌تر با چندین سطح ارتقا و نیازمندی‌های خاص.
-  - روابط عمیق‌تر با دوستان، خانواده و همسر (با تعاملات بیشتر و رویدادهای مرتبط).
-  - رویدادهای تصادفی بسیار متنوع‌تر با گزینه‌های تصمیم‌گیری چندگانه.
-  - سیستم سلامت دقیق‌تر با بیماری‌ها و درمان‌های خاص.
-  - سیستم مالی پیشرفته‌تر (سرمایه‌گذاری، وام، بورس).
-- **مکانیک‌های گیم‌پلی جذاب:**
-  - مینی‌گیم‌ها برای برخی فعالیت‌ها یا شغل‌ها.
-  - سیستم اهداف و دستاوردها (Achievements).
-- **صدا و موسیقی:**
-  - موسیقی پس‌زمینه و جلوه‌های صوتی.
-- **بهبود رابط کاربری (UI) و تجربه کاربری (UX).**
-- **امکان ذخیره و بارگذاری بازی.**
-- **شخصیت‌پردازی بیشتر در ابتدای بازی.**
-
-## مشارکت
-
-از آنجایی که این پروژه هنوز در مراحل اولیه است، هرگونه پیشنهاد، بازخورد یا مشارکت در توسعه بسیار مورد استقبال قرار می‌گیرد. اگر ایده‌ای دارید یا می‌خواهید در بهبود بازی کمک کنید، لطفاً یک Issue باز کنید یا یک Pull Request ارسال نمایید.
-
-## نیازمندی‌ها
-
-- Python 3.x
-- Pygame
-
 ---
 
 امیدوارم از این شبیه‌ساز زندگی لذت ببرید (حتی در وضعیت فعلی و ناقص آن)!

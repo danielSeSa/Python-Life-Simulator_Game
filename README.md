@@ -1,5 +1,4 @@
-# Python-Life-Simulator_Game
-# Python Life Simulator - Epic Edition
+#Python Game (Life Simulator)
 
 A simple life simulation game developed using Pygame in Python. In this game, you manage a character from birth to death, making important decisions about education, career, relationships, and daily activities.
 
@@ -59,7 +58,7 @@ Hope you enjoy this life simulator (even in its current, incomplete state)!
 
 ## (متن فارسی پایین‌تر شروع می‌شود)
 
-# Python Life Simulator - Epic Edition
+# Python Game (Life Simulator)
 
 یک بازی شبیه‌ساز زندگی ساده که با استفاده از Pygame در پایتون توسعه داده شده است. در این بازی، شما یک شخصیت را از بدو تولد تا مرگ مدیریت می‌کنید، تصمیمات مهمی در مورد تحصیل، شغل، روابط و فعالیت‌های روزمره می‌گیرید.
 

@@ -3,6 +3,9 @@ import random
 import time
 import sys
 
+# Created by: Seyed Daniel Seyed Saadat
+# Github: danielSeSa
+
 # Initialize Pygame
 pygame.init()
 
@@ -67,7 +70,7 @@ FONT_SMALL = pygame.font.Font(DEFAULT_FONT_NAME, 18)
 FONT_MEDIUM = pygame.font.Font(DEFAULT_FONT_NAME, 20)
 FONT_LARGE = pygame.font.Font(DEFAULT_FONT_NAME, 32)
 FONT_TITLE = pygame.font.Font(DEFAULT_FONT_NAME, 40)
-FONT_BUTTON = pygame.font.Font(DEFAULT_FONT_NAME, 18) 
+FONT_BUTTON = pygame.font.Font(DEFAULT_FONT_NAME, 18)
 FONT_BUTTON_AGE_UP = pygame.font.Font(DEFAULT_FONT_NAME, 20) # Slightly larger for Age Up button
 
 # --- Helper: Generate Random Names (English) ---
@@ -871,7 +874,7 @@ def game_loop():
             active_buttons_list.extend(dynamic_buttons)
         elif game_state == "game_over":
             active_buttons_list.extend([restart_button, quit_button_game_over])
-
+            
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT: running = False
@@ -1177,6 +1180,15 @@ def game_loop():
             quit_button_game_over.rect.bottom = overlay_rect.bottom - 20 # Moved up
             
             for btn in active_buttons_list: btn.draw(screen)
+
+        # Display GitHub username in the bottom-right corner
+        github_text = "GitHub: danielSeSa"
+        github_padding = 10
+        # Using top_right alignment for draw_text, so x is the right edge and y is the top edge of the text
+        draw_text(screen, github_text, FONT_XSMALL, MEDIUM_GRAY, 
+                  SCREEN_WIDTH - github_padding, 
+                  SCREEN_HEIGHT - FONT_XSMALL.get_linesize() - github_padding, 
+                  top_right=True)
 
         pygame.display.flip()
         clock.tick(30) 
